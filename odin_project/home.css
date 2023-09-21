@@ -1,8 +1,140 @@
-#headers{
+#headers h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#headers h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#headers p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.btnctr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mylinks img{
+    width: 150px;
+}
+.text-gold{
+    color: goldenrod;
+}
+.text_center{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-wrap: wrap;
+    
 }
-.card img{
-    width: 200px;
+.text_center p{
+    font-size: 26px;
+}
+.lbc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+       
+}
+.lbc1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lbc2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lbc3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lbc img{
+    width: 100px;
+    height: 100px;
+}
+#learnn h2{
+    text-align: center;
+}
+.links1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   /* justify-content: space-around; */
+   border: black;
+    /* justify-content: space-between; */
+    
+}
+.links1 a img{
+    background-color: whitesmoke;
+    margin: 20px;
+    
+    /* padding: 20px; */
+}
+.links2 a img{
+    background-color: whitesmoke;
+    margin: 20px;
+}
+.links3 a img{
+    background-color: whitesmoke;
+    margin: 20px;
+}
+.links2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* justify-content: space-around; */
+   border: black;
+    /* justify-content: space-between; */
+    
+}
+.links3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* justify-content: space-around; */
+   border: black;
+    /* justify-content: space-between; */
+    
+}
+.text-semibold{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 15px;
+    text-align: center;
+
+}
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.links1 a{
+    text-decoration: none;
+    color: black;
+}
+.links2 a{
+    text-decoration: none;
+    color: black;
+}
+.links3 a{
+    text-decoration: none;
+    color: black;
 }
