@@ -1,4 +1,5 @@
 #headers h1{
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,9 +23,15 @@
     align-items: center;
     justify-content: center;
 }
-.mylinks img{
-    width: 150px;
+#img1 img{
+    /* width: 1190px;
+    height: 437.16px; */
+    max-width: 100%;
 }
+#main{
+    height: 550px;
+}
+
 .text-gold{
     color: goldenrod;
 }
@@ -33,16 +40,33 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-wrap: wrap;
+    /* text-wrap: wrap; */
     
 }
 .text_center p{
-    font-size: 26px;
+    width: 768px;
+    height: 84px;
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.para{
+    text-align: center;
+}
+.para p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 287px;
+    height: 33px;
 }
 .lbc{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
    
        
 }
@@ -64,12 +88,32 @@
     align-items: center;
     flex-direction: column;
 }
-.lbc img{
-    width: 100px;
-    height: 100px;
+.lbc1 img{
+    width: 106.66px;
+    height: 160px;
+}
+.lbc2 img{
+    width: 206.44px;
+    height: 160px;
+}
+.lbc3 img{
+    width: 174.86px;
+    height: 160px;
+}
+
+#gray{
+    background-color: rgb(230, 226, 226);
 }
 #learnn h2{
     text-align: center;
+    /* font-weight: 400;
+    width: 287.33px;
+    height: 28px;
+    margin-top: 2rem;
+    margin-bottom: 1rem; */
+}
+.mylinks img{
+    width: 150px;
 }
 .links1{
     display: flex;
@@ -137,4 +181,31 @@
 .links3 a{
     text-decoration: none;
     color: black;
+}
+
+
+/*--------Success Story Section----*/
+.fbbk_img img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+}
+.stories{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.txt_cntr{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+.feedback_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedback{
+    display: flex;
+    flex-direction: row;
 }
