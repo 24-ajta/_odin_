@@ -221,3 +221,60 @@
 .read_more a{
     color: rgb(189, 184, 184);
 }
+/* .list_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.mylistss{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.support_us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.icons_section p {
+    width: 384px;
+    height: 48px;
+    text-align: center;
+} 
+.about{
+    display: flex;
+    flex-direction: column;
+    
+    
+} 
+.support{
+    display: flex;
+    flex-direction: column;
+}
+.guide{
+    display: flex;
+    flex-direction: column;
+}
+.legal{
+    display: flex;
+    flex-direction: column;
+} 
+.mylistss a{
+    text-decoration: none;
+    color: black;
+}
+.sprt_para{
+    width: 512px;
+    height: 40px;
+    text-align: center;
+}
+#footr{
+    border: 2px  solid grey;
+    width: 100%;
+}
+/* width: 247.5px;
+    height: 139px; */
