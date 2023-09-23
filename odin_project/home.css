@@ -104,6 +104,9 @@
 #gray{
     background-color: #f3f4f6;
 }
+#learnn{
+    margin-top: 80px;
+}
 #learnn h2{
     text-align: center;
     /* font-weight: 400;
@@ -233,6 +236,17 @@
     width: 608px;
     height: 144px;
     flex-wrap: wrap;
+}
+.content{
+    margin-inline-start: 10px;
+    
+}
+.content a{
+    
+    color: grey;
+}
+.content a:hover{
+    text-decoration: none;
 }
 .read_more{
     text-align: center;
