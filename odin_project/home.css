@@ -102,7 +102,7 @@
 }
 
 #gray{
-    background-color: rgb(230, 226, 226);
+    background-color: #f3f4f6;
 }
 #learnn h2{
     text-align: center;
@@ -120,6 +120,15 @@
 .linkk{
     width: 224px;
     height: 308px;
+    /* background-color: #fff; */
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    
     
     
     /* background-color: whitesmoke; */
@@ -165,8 +174,22 @@
 }
 .explore{
     text-align: center;
+    line-height: 1.5rem;
+    
 }
-
+.explore a{
+    text-decoration: none;
+    color: gray;
+   
+    
+}
+.button--secondary{
+    
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    
+}
 
 /*--------Success Story Section----*/
 .fbbk_img img{
@@ -184,7 +207,7 @@
     font-size: 1.875rem;
     line-height: 2.25rem;
 }
-.feedback_section{
+.feedback_sec-lg-4tion{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,9 +268,9 @@
     height: 48px;
     text-align: center;
 } 
-.about{
-    display: flex;
-    flex-direction: column;
+#about a{
+   text-decoration: none;
+   color: grey;
     
     
 } 
@@ -271,10 +294,25 @@
     width: 512px;
     height: 40px;
     text-align: center;
+    line-height: 1.3rem;
 }
 #footr{
     border: 2px  solid grey;
     width: 100%;
+}
+#iconss a{
+    text-decoration: none;
+    color: black;
+}
+#iconss a:hover{
+    color: rgb(36, 117, 174)
+}
+#discord img{
+    width: 14.86px;
+    height: 16px;
+}
+.row-margin-05{
+    margin-top: 3rem;
 }
 /* width: 247.5px;
     height: 139px; */

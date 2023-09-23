@@ -10,6 +10,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
@@ -70,7 +71,7 @@
                 />
               </div>
         </div>
-        <div class="row" id="main">
+        <div class="row mt-3" id="main">
             <div class="page_container">
                 <div class="text_center">
                   <h2>How it works</h2>
@@ -123,7 +124,7 @@
                 </div>
               </div>
         </div>
-        <div class="row" id="gray">
+        <div class="row mt-3" id="gray">
             <div class="col" id="learnn">
                 <h2>Learn everything you need to know</h2>
               </div>
@@ -217,9 +218,13 @@
                   </div>
                 </div>
               </div>
-              <div class="explore">
-                <button>Explore Curriculum</button>
+              <div class="row mt-5 mb-3">
+                <div class="explore">
+                  <a class="button button--secondary text-base" href="#">Explore Curriculum</a>
+                  
+                </div>
               </div>
+              
         </div>
         <div class="row">
             <div class="stories">
@@ -233,7 +238,7 @@
                       
                         <div class="fbbk_img"><img src="./images/robpando.jpg" alt=""></div>
                         <div class="content">
-                          <p><a href="#">Rob Pando</a></p>
+                          <a href="#">Rob Pando</a>
                           <div class="text-lg">
                             <p style="width: 480px; height: 84px;">TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me...</p>
                           </div>
@@ -243,7 +248,7 @@
                         
                         <div class="fbbk_img"><img src="./images/cody_loyd.jpg" alt=""></div>
                         <div class="content">
-                          <p><a href="#">Cody Loyd</a></p>
+                          <a href="#">Cody Loyd</a>
                           <div class="text-lg">
                             <p style="width: 480px; height: 112px;">Before I started the Odin Project I had literally ZERO programming experience. After almost exactly a year of working through the program, I was offered a job as a front...</p>
                           </div>
@@ -255,7 +260,7 @@
                       
                         <div class="fbbk_img"><img src="./images/andrej_dragojevic.jpg" alt=""></div>
                         <div class="content">
-                          <p><a href="#">Andrej Dragojević</a></p>
+                          <a href="#">Andrej Dragojević</a>
                           <div class="text-lg">
                             <p style="width: 480px; height: 140px;">An incredible self-paced curriculum that consists of the best resources for learning programming on the web! It was an invaluable resource on my path to a becoming a software developer...</p>
                           </div>
@@ -265,7 +270,7 @@
                         
                         <div class="fbbk_img"><img src="./images/skip.jpg" alt=""></div>
                         <div class="content">
-                          <p><a href="#">Skip Gibson</a></p>
+                          <a href="#">Skip Gibson</a>
                           <div class="text-lg">
                             <p style="width: 480px; height: 84px;">Before I found The Odin Project I had very little direction with my learning, jumping from topic to topic then trying to piece things together as I went.Having this...</p>
                           </div>
@@ -283,96 +288,111 @@
         </div>
 
        
-        <div class="row ms-3">
-          <div class="support_us">
-            <h1>Support Us!</h1>
-            <p class="sprt_para">The Odin Project is funded by the community. Join us in empowering learners around the globe by supporting The Odin Project!</p>
-            <div class="support_btn">
-              <button type="button" style="background-color: white;">Learn More</button>
-            <button type="button" style="background-color: rgb(12, 116, 12); color: white;">Donate Now</button>
-            </div>
-            
-          </div>
-          
-          <div class="col-lg-4">
-            <div class="row">
-              <h5>The Odin Project</h5>
-            </div>
-            <div class="row">
-              <div class="icons_section">
-                <p>High quality coding education maintained by an open source community.</p>
-              </div>
-              </div> 
-              <div class="row">
-                <div class="col-lg-1">
-                  <a href="#">a</a>
-                </div>
-                <div class="col-lg-1">
-                  <a href="#">b</a>
-                </div>
-                <div class="col-lg-1">
-                  <a href="#">c</a>
-                </div>
-                <div class="col-lg-1">
-                  <a href="#">d</a>
-                </div>
-              </div>
-            </div>
-            
-          
-          <div class="col-lg-2">
-            <h5>About</h5>
-            <div class="row">
-              <a href="#">About</a>
-            </div>
-            <div class="row">
-              <a href="#">Blog</a>
-            </div>
-            <div class="row">
-              <a href="#">Success Stories</a>
-            </div>
-                
-                
-                
-          </div>
-          <div class="col-lg-2">
-            <h5>Support</h5>
-            <div class="row">
-              <a href="#">FAQ</a>
-            </div>
-            <div class="row">
-              <a href="#">Contribute</a>
-            </div>
-            <div class="row">
-              <a href="#">Contact Us</a>
-            </div>
-              
-                
-              
-          </div>
-          <div class="col-lg-2">
-            <h5>Guides</h5>
-            <div class="row">
-              <a href="#">Community Guides</a>
-            </div>
-            <div class="row">
-              <a href="#">Installation Guides</a>
-            </div>
-           
-            
-          </div>
-          <div class="col-lg-2">
-            <h5>Legal</h5>
-            <div class="row"></div>
-            <a href="#">Terms</a>
-            <div class="row"></div>
-            <a href="#">Privacy</a>
-            
-           
-          </div>
-        </div>
-        <div class="row" id="footr"></div>
         <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="support_us">
+                <h3>Support Us!</h3>
+                <p class="sprt_para">The Odin Project is funded by the community. Join us in empowering learners around the globe by supporting The Odin Project!</p>
+                <div class="support_btn">
+                  <button type="button" style="background-color: white;">Learn More</button>
+                <button type="button" style="background-color: rgb(12, 116, 12); color: white;">Donate Now</button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="row row-margin-05">
+              <div class="col-lg-4">
+                <div class="row">
+                  <h5>The Odin Project</h5>
+                </div>
+                <div class="row">
+                  <div class="icons_section">
+                    <p>High quality coding education maintained by an open source community.</p>
+                  </div>
+                  </div> 
+                  <div class="row" id="iconss">
+                    <div class="col-lg-1">
+                      <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                    <!-- <div class="col-lg-1" id="discord">
+                      <a href="#"><img src="./images/discord.png" alt=""></a>14.86 16
+                    </div> -->
+                    <div class="col-lg-1">
+                      <a href="#"><i class='fab fa-discord'></i></a>
+                    </div>
+                    <div class="col-lg-1">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                    </div>
+                    <div class="col-lg-1">
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                  </div>
+                </div>
+                
+              
+              <div class="col-lg-2" id="about">
+                <h5>About</h5>
+                <div class="row">
+                  <a href="#">About</a>
+                </div>
+                <div class="row">
+                  <a href="#">Blog</a>
+                </div>
+                <div class="row">
+                  <a href="#">Success Stories</a>
+                </div>
+                    
+                    
+                    
+              </div>
+              <div class="col-lg-2"id="about">
+                <h5>Support</h5>
+                <div class="row" >
+                  <a href="#">FAQ</a>
+                </div>
+                <div class="row">
+                  <a href="#">Contribute</a>
+                </div>
+                <div class="row">
+                  <a href="#">Contact Us</a>
+                </div>
+                  
+                    
+                  
+              </div>
+              <div class="col-lg-2"id="about">
+                <h5>Guides</h5>
+                <div class="row" >
+                  <a href="#">Community Guides</a>
+                </div>
+                <div class="row">
+                  <a href="#">Installation Guides</a>
+                </div>
+               
+                
+              </div>
+              <div class="col-lg-2" id="about">
+                <h5>Legal</h5>
+                <div class="row">
+                  <a href="#">Terms</a>
+                </div>
+               
+                <div class="row">
+                  <a href="#">Privacy</a>
+                </div>
+                
+                
+               
+              </div>
+            </div>
+          </div>
+         
+          
+
+        </div>
+        <div class="row ms-2 mt-3" id="footr"></div>
+        <div class="row ms-2">
           <div class="footer">
             <p>© 2023 The Odin Project. All rights reserved</p>
           </div>
