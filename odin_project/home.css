@@ -27,6 +27,18 @@
     }
   }
 
+/*------navbar using bootstrap code---*/
+
+.navbar-brand img{
+    width: 35px;
+    height: 30px;
+}
+#odin_sun_icon img{
+width: 48px;
+height: 40px;
+}
+
+
 /*----First Row---*/
 .navbar{
     margin-top: 15px;

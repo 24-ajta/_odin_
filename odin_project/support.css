@@ -12,6 +12,8 @@
 .odin_project{
     text-decoration: none;
     color: black;
+    font-weight: 500;
+    font-size: .875rem;
 }
 .odin_btn{
     border-radius: 2rem;
@@ -25,6 +27,8 @@
 .odin_link a{
     text-decoration: none;
     color: black;
+    font-weight: 500;
+    font-size: .875rem;
 }
 .odin_link a:hover{
     text-decoration: underline;
@@ -33,7 +37,16 @@
 
 
 /*----Second Row----*/
-
+.main_heading{
+    background-color: rgb(231, 252, 252);
+    position: relative;
+    margin-top: 20px;
+}
+#frequent{
+    background-color: rgb(189, 213, 213);
+    position: relative;
+    margin-top: 50px;
+}
 .main_heading{
     display: flex;
     justify-content: center;
@@ -69,12 +82,17 @@
 #frequent h2{
     text-align: center;
 }
+.sub_content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 .sub_content p{
     width: 810.667px;
     height: 56px;
     
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
 }
 .sub_heading{
  
@@ -85,7 +103,10 @@
     height: 56px;
 }
 /*----Support Section---*/
-
+#support_section_main{
+    position: relative;
+    margin-top: 50px;
+}
 .support_us{
     display: flex;
     align-items: center;
@@ -145,7 +166,7 @@
     height: 16px;
 }
 .row-margin-05{
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 /*---Footer Border Section---*/
