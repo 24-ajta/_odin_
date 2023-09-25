@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(227, 241, 236);
+}
+
 /*----First Row---*/
 .navbar{
     margin-top: 15px;
@@ -43,7 +47,7 @@
     margin-top: 20px;
 }
 #frequent{
-    background-color: rgb(189, 213, 213);
+    background-color: rgb(246, 250, 250);
     position: relative;
     margin-top: 50px;
 }
@@ -90,6 +94,9 @@
 .sub_content p{
     width: 810.667px;
     height: 56px;
+    font-size: 1.11em;
+
+    
     
     /* display: flex; */
     /* flex-wrap: wrap; */
@@ -101,6 +108,15 @@
 .sub_heading p{
     width: 810.667px;
     height: 56px;
+    
+    
+}
+.sub_content h3{
+    font-size: 1.21em;
+    color: #111827;
+}
+.sub_content p{
+    font-size: 1.17em;
 }
 /*----Support Section---*/
 #support_section_main{
