@@ -1,0 +1,156 @@
+/*----First Row---*/
+.navbar{
+    margin-top: 15px;
+}
+.odin_icon_img{
+    margin-left: 100px;
+}
+.odin_icon_img img{
+    width: 35.2px;
+    height: 48px;
+}
+.odin_project{
+    text-decoration: none;
+    color: black;
+}
+.odin_btn{
+    border-radius: 2rem;
+    background-color: #0f766e;
+    color: wheat;
+}
+.odin_sun_icon img{
+    width: 48px;
+    height: 40px;
+}
+.odin_link a{
+    text-decoration: none;
+    color: black;
+}
+.odin_link a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*----Second Row----*/
+
+.main_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.main_heading p{
+    width: 650px;
+    height: 112px;
+    
+    text-align: center;
+}
+.sub_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* .sub_heading h3{
+    width: 431.583px;
+    height: 36px;
+} */
+/* .sub_content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+
+
+#frequent h2{
+    text-align: center;
+}
+.sub_content p{
+    width: 810.667px;
+    height: 56px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub_heading{
+ 
+    gap: 1em;
+}
+.sub_heading p{
+    width: 810.667px;
+    height: 56px;
+}
+/*----Support Section---*/
+
+.support_us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.icons_section p {
+    width: 384px;
+    height: 48px;
+    text-align: center;
+} 
+#about a{
+   text-decoration: none;
+   color: grey;
+    
+    
+} 
+.support{
+    display: flex;
+    flex-direction: column;
+}
+.guide{
+    display: flex;
+    flex-direction: column;
+}
+.legal{
+    display: flex;
+    flex-direction: column;
+} 
+.mylistss a{
+    text-decoration: none;
+    color: black;
+}
+.sprt_para{
+    width: 512px;
+    height: 40px;
+    text-align: center;
+    line-height: 1.3rem;
+}
+
+#iconss a{
+    text-decoration: none;
+    color: black;
+}
+#odinnn{
+    margin-left: 80px;
+}
+/* #iconss_sec{
+    margin-left: 30px;
+} */
+#iconss a:hover{
+    color: rgb(36, 117, 174)
+}
+#discord img{
+    width: 14.86px;
+    height: 16px;
+}
+.row-margin-05{
+    margin-top: 3rem;
+}
+
+/*---Footer Border Section---*/
+
+#footr{
+    border: 2px  solid grey;
+    width: 100%;
+}

@@ -1,0 +1,76 @@
+.main h2,h3{
+   text-align: center;
+}
+.main h2{
+    font-weight: 700;
+}
+.main h3{
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.signup{
+    color: black;
+}
+.main{
+    width: 448px;
+    height: 440px;
+    border: 2px solid black;
+    position: relative;
+    margin-left: 700px;
+    margin-top: 200px;
+}
+.mt-2 input{
+    width: 384px;
+    height: 42px;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.rem_section a{
+    font-weight: 500;
+}
+.fgt_section a{
+    font-weight: 500;
+    
+    color: black;
+}
+.sign{
+    width: 384px;
+    height: 38px;
+    color: white;
+    background-color: #0f776e;
+    border-radius: 1rem;
+}
+.relative{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.relative p{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    position: relative;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 1rem;
+}
+.fa-github{
+width: 186px;
+height: 38px;
+
+}
+.fa-google{
+    width: 186px;
+    height: 38px;
+}

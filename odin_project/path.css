@@ -1,0 +1,162 @@
+#path_main{
+    background-color: azure;
+}
+h2{
+    text-align: center;
+}
+.path_img img{
+    width: 96px;
+    height: 96px;
+}
+.path_one{
+    border: 1px solid black;
+}
+.path_p{
+    border: 1px solid black;
+}
+.path_p p{
+    width: 832px;
+    height: 84px;
+}
+.path_fndtn a{
+    text-decoration: none;
+    color: black;
+}
+.path_btn{
+    width: 147.233px;
+    height: 46px;
+    background-color: black;
+    border-radius: 2rem;
+    
+}
+.path_btn a{
+    text-decoration: none;
+    color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 49.2333px;
+    height: 17px;
+    
+}
+.path{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.path_first{
+    display: flex;
+    flex-direction: row;
+}
+.path_description p {
+    width: 358.083px;
+    height: 168px;
+}
+.pathdes{
+    text-decoration: none;
+    color: black;
+    line-height: 2rem;
+}
+/* .path_description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+/* .path_img{
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border: 1px solid black;
+} */
+.path_jsruby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+h3{
+    text-align: center;
+}
+.path_second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*----Support Section---*/
+
+.support_us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.icons_section p {
+    width: 384px;
+    height: 48px;
+    text-align: center;
+} 
+#about a{
+   text-decoration: none;
+   color: grey;
+    
+    
+} 
+.support{
+    display: flex;
+    flex-direction: column;
+}
+.guide{
+    display: flex;
+    flex-direction: column;
+}
+.legal{
+    display: flex;
+    flex-direction: column;
+} 
+.mylistss a{
+    text-decoration: none;
+    color: black;
+}
+.sprt_para{
+    width: 512px;
+    height: 40px;
+    text-align: center;
+    line-height: 1.3rem;
+}
+
+#iconss a{
+    text-decoration: none;
+    color: black;
+}
+#iconss a:hover{
+    color: rgb(36, 117, 174)
+}
+#discord img{
+    width: 14.86px;
+    height: 16px;
+}
+.row-margin-05{
+    margin-top: 3rem;
+}
+
+/*---Footer Border Section---*/
+
+#footr{
+    border: 2px  solid grey;
+    width: 100%;
+}

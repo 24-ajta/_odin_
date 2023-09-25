@@ -1,3 +1,66 @@
+.dark-mode {
+    
+    background-color: black;
+    color: white;
+
+    .odin_link a{
+        text-decoration: none;
+        color: white;
+
+    }
+    .odin_project{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #main{
+        background-color: rgb(28, 38, 38);
+    }
+    #gray{
+        background-color: black;
+    }
+    .linkk{
+        background-color: rgb(28, 38, 38);
+    }
+    .button--secondary{
+        background-color: rgb(28, 38, 38);
+    }
+  }
+
+/*----First Row---*/
+.navbar{
+    margin-top: 15px;
+}
+.odin_icon_img{
+    margin-left: 100px;
+}
+.odin_icon_img img{
+    width: 35.2px;
+    height: 48px;
+}
+.odin_project{
+    text-decoration: none;
+    color: black;
+}
+.odin_btn{
+    border-radius: 2rem;
+    background-color: #0f766e;
+    color: wheat;
+}
+.odin_sun_icon img{
+    width: 48px;
+    height: 40px;
+}
+.odin_link a{
+    text-decoration: none;
+    color: black;
+}
+.odin_link a:hover{
+    text-decoration: underline;
+}
+
+/*----Second Row----*/
+
 #headers h1{
     
     display: flex;
@@ -17,12 +80,19 @@
     justify-content: center;
    
 }
-
+.text-gold{
+    color: goldenrod;
+}
 .btnctr{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+/*-----backgrounf image----*/
+
+
 #img1 img{
     /* width: 1190px;
     height: 437.16px; */
@@ -32,9 +102,8 @@
     height: 550px;
 } */
 
-.text-gold{
-    color: goldenrod;
-}
+/*-----Second Row*/
+
 .text_center{
     display: flex;
     justify-content: center;
@@ -100,6 +169,10 @@
     width: 174.86px;
     height: 160px;
 }
+
+
+/*---fifth row*/
+
 
 #gray{
     background-color: #f3f4f6;
@@ -175,26 +248,40 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
+
 .explore{
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 4.5rem;
     
 }
 .explore a{
     text-decoration: none;
     color: gray;
-   
+    margin: 20px;
+   padding: 18px;
     
 }
 .button--secondary{
     
     border: 1px solid grey;
+    
     border-radius: 0.5rem;
     background-color: #fff;
     
 }
+#textbase h6{
+    width: 180px;
+    height: 100px; 
+}
 
 /*--------Success Story Section----*/
+.storymain{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;  
+}
 .fbbk_img img{
     width: 3rem;
     height: 3rem;
@@ -263,13 +350,17 @@
     align-items: center;
     justify-content: center;
 } */
+
 .mylistss{
     display: flex;
-    /* align-items: center; */
+    
     justify-content: center;
     flex-wrap: wrap;
     gap: 3rem;
 }
+
+/*----Seventh Row(Support Section)----*/
+
 .support_us{
     display: flex;
     align-items: center;
@@ -310,14 +401,17 @@
     text-align: center;
     line-height: 1.3rem;
 }
-#footr{
-    border: 2px  solid grey;
-    width: 100%;
-}
+
 #iconss a{
     text-decoration: none;
     color: black;
 }
+#odinnn{
+    margin-left: 80px;
+}
+/* #iconss_sec{
+    margin-left: 30px;
+} */
 #iconss a:hover{
     color: rgb(36, 117, 174)
 }
@@ -327,6 +421,13 @@
 }
 .row-margin-05{
     margin-top: 3rem;
+}
+
+/*---Footer Border Section---*/
+
+#footr{
+    border: 2px  solid grey;
+    width: 100%;
 }
 /* width: 247.5px;
     height: 139px; */
