@@ -1,0 +1,47 @@
+body{
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+h2{
+    text-align: center;
+}
+.mb-12{
+    
+    
+    margin-bottom: 3rem;
+}
+.mb-12 h2{
+    color: #374151;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.img_parent{
+    width: 80px;
+    height: 80px;
+}
+img{
+    width: 100%;
+}
+.font-semibold{
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #4B5563;
+    
+}
+
+p{
+    font-size: 1rem;
+    /* line-height: 1.75rem; */
+    max-width: none;
+}
+
+@media (max-width: 991px){
+    .img_parent{
+        width: 80px;
+        height: 80px;
+    }
+    img{
+        width:100%
+}
+
+}
